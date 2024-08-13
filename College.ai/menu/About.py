@@ -31,7 +31,7 @@ def main():
         animation = json.load(anim_source)
     st_lottie(animation, 1, True, True, "high", 200, -200)
 
-    st.markdown("<p style='text-align: center;'>- ©️Navin Kumar's Project-</p>", unsafe_allow_html=True)
+    st.markdown("<p style='text-align: center;'>- ©️Team Unstoppable-</p>", unsafe_allow_html=True)
 
     
     st.write("\n")
@@ -40,7 +40,7 @@ def main():
     col1, col2, col3 = st.columns([1,1,1])
     
     with col1:
-        st.link_button('GitHub', "https://github.com/navin202")
+        st.link_button('GitHub', "https://github.com/navin202/carrercraft.ai")
     with col2:
         st.link_button('LinkedIn', "https://www.linkedin.com/in/navin-kumar-872138245/")
     with col3:
